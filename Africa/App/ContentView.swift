@@ -20,24 +20,29 @@ struct ContentView: View {
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
-                ForEach(animals) {
-                    animal in AnimalListItemView(animal: animal)
-                }
-            }//:LIST
-            .navigationBarTitle("Africa", displayMode: .large)
-        }//: NAVIGATION VIEW
-        
-        
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Content")
-//        }
-//        .padding()
+                ForEach(animals) { animal in
+                    NavigationLink(destination: AnimalDetailView(animal: animal)){
+                        AnimalListItemView(animal: animal)
+                    }//: FORLOOP
+                }//:LIST
+                .navigationBarTitle("Africa", displayMode: .large)
+            }//: NAVIGATION VIEW
+            
+            
+            //        VStack {
+            //            Image(systemName: "globe")
+            //                .imageScale(.large)
+            //                .foregroundStyle(.tint)
+            //            Text("Content")
+            //        }
+            //        .padding()
+        }
     }
 }
-
-#Preview {
-    ContentView()
-}
+  
+struct ContentView_Preview: PreviewProvider{
+        
+        static var previews: some View{
+            ContentView()
+        }
+    }
