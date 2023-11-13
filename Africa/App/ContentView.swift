@@ -28,14 +28,6 @@ struct ContentView: View {
                 .navigationBarTitle("Africa", displayMode: .large)
             }//: NAVIGATION VIEW
             
-            
-            //        VStack {
-            //            Image(systemName: "globe")
-            //                .imageScale(.large)
-            //                .foregroundStyle(.tint)
-            //            Text("Content")
-            //        }
-            //        .padding()
         }
     }
 }
