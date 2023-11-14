@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430896E62B0385E800806CF2 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430896E52B0385E800806CF2 /* MotionAnimationView.swift */; };
 		435188062AF95BE5000997F3 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435188052AF95BE5000997F3 /* AfricaApp.swift */; };
 		435188082AF95BE5000997F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435188072AF95BE5000997F3 /* ContentView.swift */; };
 		4351880A2AF95BE6000997F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435188092AF95BE6000997F3 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430896E52B0385E800806CF2 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		435188022AF95BE5000997F3 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435188052AF95BE5000997F3 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		435188072AF95BE5000997F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				439DA84D2AFF664C00A8C115 /* VideoListItemView.swift */,
 				439DA84F2AFF864500A8C115 /* VideoPlayerView.swift */,
 				436247462AFFFF23008DB7C6 /* MapAnnotationView.swift */,
+				430896E52B0385E800806CF2 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				439846A02AFE96FA00564A0F /* InsertGalleryView.swift in Sources */,
 				439DA84E2AFF664C00A8C115 /* VideoListItemView.swift in Sources */,
 				43894ECF2AFD85E100ED1FDB /* HeadingView.swift in Sources */,
+				430896E62B0385E800806CF2 /* MotionAnimationView.swift in Sources */,
 				439846A22AFEA13300564A0F /* InsertFactView.swift in Sources */,
 				439DA8502AFF864500A8C115 /* VideoPlayerView.swift in Sources */,
 			);
